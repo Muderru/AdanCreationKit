@@ -1,9 +1,0 @@
-*   Битвектор комнаты [1]
-*
-a	ROOM1_NONORTH Свободные монстры не могут уйти на север.
-b	ROOM1_NOEAST  - / - на восток
-c	ROOM1_NOWEST  - / - на запад
-d	ROOM1_NOSOUTH - / - на юг
-e	ROOM1_NOUP    - / - вверх
-f	ROOM1_NODOWN  - / - вниз
-g	ROOM1_LIGHT   В комнате всегда светло
