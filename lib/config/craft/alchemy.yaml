@@ -1,0 +1,27 @@
+- name: Ќапиток легкого исцелени€
+  vnum: 10000
+  min_skill: 1
+  good_train_skill: 5
+  train_skill: 15
+  ingredients: []
+  description: »сцел€ет легкие раны
+  min_level: 1
+
+- name: Ёликсир точности I
+  vnum: 10001
+  min_skill: 1
+  good_train_skill: 5
+  train_skill: 15
+  ingredients: []
+  description: +1 HITROLL на 30 минут
+  min_level: 1
+
+- name: Ёликсир инфразрени€
+  vnum: 10002
+  min_skill: 5
+  good_train_skill: 10
+  train_skill: 20
+  ingredients: []
+  description: —пособность видеть живых существ в темноте на 30 минут
+  min_level: 1
+

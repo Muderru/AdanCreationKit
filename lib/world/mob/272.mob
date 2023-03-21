@@ -1,0 +1,851 @@
+#27200 2
+барон~
+барон~
+барона~
+барону~
+барона~
+бароном~
+бароне~
+Барон сидит в своем кресле.
+~
+Лицо этого человека покрыто многочисленными шрамами. Глаза видели и громадных драконов, и огромные 
+полчища верховного назгула. Ничто не испугает его.
+~
+ 
+~
+bcglmnox dfk 600 E
+15 7 1 2d10+280 1d6+5
+5d5+70 8000
+6 6 1
+LikeWork: 65
+MaxFactor: 5
+ExtraAttack: 1
+BareHandAttack: 0
+Str: 30
+Int: 14
+Wis: 17
+Dex: 21
+Con: 20
+Cha: 14
+Class: 3
+Size: 25
+Height: 190
+Weight: 125
+Resists: 0 0 0 0 0
+Armour: 0
+PetType: 0
+PetPetCost: 0
+Race: 1
+Move_type: 0
+Special_Bitvector: 0
+Skill: 132 60
+Skill: 137 50
+Skill: 141 60
+Skill: 143 60
+Skill: 151 50
+E
+T 27203
+T 27204
+T 27206
+#27201 2
+кухарка~
+кухарка~
+кухарки~
+кухарке~
+кухарку~
+кухаркой~
+кухарке~
+Толстая кухарка стоит около жаровни.
+~
+Необъятных размеров баба стоит около жаровни. Лицо ее покрывает красный румянец. В толстых руках крепко сжат кухонный топорик, которым с легкостью можно перерубить как свиной окорок, так и человеческую шею.
+~
+ 
+~
+bcglmnox dk 600 E
+13 9 2 2d9+155 1d8+5
+5d5+70 5000
+6 6 2
+LikeWork: 55
+MaxFactor: 5
+ExtraAttack: 1
+BareHandAttack: 0
+Str: 19
+Int: 13
+Wis: 15
+Dex: 15
+Con: 19
+Cha: 13
+Class: 3
+Size: 25
+Height: 190
+Weight: 125
+Resists: 0 0 0 0 0
+Armour: 0
+PetType: 0
+PetPetCost: 0
+Race: 1
+Move_type: 0
+Special_Bitvector: 0
+Skill: 151 60
+Skill: 142 60
+Skill: 150 50
+E
+T 27205
+#27202 2
+рабочий~
+рабочий~
+рабочего~
+рабочему~
+рабочего~
+рабочем~
+рабочим~
+Рабочий в простой холщовой рубахе проходит мимо вас.
+~
+С виду это простой деревенский парень, нанявшийся на заработок к барону. 
+~
+ 
+~
+gno k 0 E
+10 12 3 2d8+120 2d7+2
+1d5+20 9600
+8 8 1
+LikeWork: 40
+MaxFactor: 10
+ExtraAttack: 0
+BareHandAttack: 0
+Str: 17
+Int: 12
+Wis: 14
+Dex: 14
+Con: 17
+Cha: 12
+Class: 3
+Size: 30
+Height: 180
+Weight: 150
+Resists: 0 0 0 0 0
+Armour: 0
+PetType: 0
+PetPetCost: 0
+Race: 1
+Move_type: 0
+Special_Bitvector: 0
+Skill: 134 60
+E
+T 27218
+#27203 2
+медвежонок маленький мохнатый~
+медвежонок~
+медвежонка~
+медвежонку~
+медвежонка~
+медвежонком~
+медвежонке~
+Маленький мохнатый медвежонок играет в пыли.
+~
+Этот комок шерсти, который то и дело заваливается на бок при попытке схватить себя лапами за хвост, 
+вызывает у вас чувство умиления. По лоснящейся шерсти видно что это любимец хозяев.
+~
+ 
+~
+gno k 0 E
+5 17 6 2d7+60 1d4+3
+0d0+0 2700
+8 8 1
+LikeWork: 20
+MaxFactor: 10
+ExtraAttack: 1
+BareHandAttack: 1
+Str: 13
+Int: 10
+Wis: 11
+Dex: 11
+Con: 13
+Cha: 10
+Class: 3
+Size: 20
+Height: 100
+Weight: 90
+Resists: 0 0 0 0 0
+Armour: 0
+PetType: 0
+PetPetCost: 0
+Race: 51
+Move_type: 0
+Special_Bitvector: 0
+E
+#27204 2
+большой мохнатый дворовый пес~
+дворовый пес~
+дворового пса~
+дворовому псу~
+дворового пса~
+дворовым псом~
+дворовом псе~
+Большой мохнатый дворовый пес лениво развалился около двери.
+~
+Густая шерсть почти полностью скрывает от вас и уши глаза пса, поэтому вы не можете определить, спит ли 
+животное или нет. Но, по-любому, тревожить его вам бы не хотелось.
+~
+ 
+~
+bgno dfk 0 E
+5 17 6 2d7+60 2d4+5
+0d0+0 0
+5 5 1
+LikeWork: 20
+MaxFactor: 10
+ExtraAttack: 1
+BareHandAttack: 1
+Str: 13
+Int: 10
+Wis: 11
+Dex: 11
+Con: 13
+Cha: 10
+Class: 3
+Size: 20
+Height: 100
+Weight: 90
+Resists: 0 0 0 0 0
+Armour: 0
+PetType: 0
+PetPetCost: 0
+Race: 51
+Move_type: 0
+Special_Bitvector: d
+Skill: 136 80
+E
+T 27207
+#27205 2
+змея~
+змея~
+змеи~
+змее~
+змею~
+змеей~
+змее~
+Змея обвилась вокруг бутылки.
+~
+
+~
+ 
+~
+bgnoqx dkt 0 E
+6 16 5 2d7+70 2d3+3
+0d0+0 3900
+8 8 2
+LikeWork: 20
+MaxFactor: 15
+ExtraAttack: 1
+BareHandAttack: 4
+Str: 14
+Int: 10
+Wis: 12
+Dex: 18
+Con: 14
+Cha: 10
+Class: 3
+Size: 10
+Height: 80
+Weight: 50
+Resists: 0 0 0 0 0
+Armour: 0
+PetType: 0
+PetPetCost: 0
+Race: 51
+Move_type: 3
+Special_Bitvector: g
+E
+#27206 2
+медведь бурый~
+бурый медведь~
+бурого медведя~
+бурому медведю~
+бурого медведя~
+бурым медведем~
+буром медведе~
+Огромный бурый медведь с окровавленными лапами отдыхает тут.
+~
+Довольно большое животное с огромной пастью.
+~
+ 
+~
+bfgnox dk 0 E
+14 8 1 2d10+165 3d6+3
+0d0+0 21600
+5 5 1
+LikeWork: 60
+MaxFactor: 15
+ExtraAttack: 1
+BareHandAttack: 6
+Str: 19
+Int: 14
+Wis: 16
+Dex: 16
+Con: 19
+Cha: 14
+Class: 3
+Size: 30
+Height: 180
+Weight: 150
+Resists: 0 0 0 0 0
+Armour: 0
+PetType: 0
+PetPetCost: 0
+Race: 51
+Move_type: 0
+Special_Bitvector: 0
+Skill: 132 50
+Skill: 176 50
+E
+T 27208
+#27207 2
+ворон~
+ворон~
+ворона~
+ворону~
+ворона~
+вороном~
+вороне~
+Черный как смоль ворон летает тут.
+~
+
+~
+ 
+~
+glmno kx 0 E
+10 12 3 2d8+120 2d7+0
+0d0+0 12000
+8 8 1
+LikeWork: 40
+MaxFactor: 15
+ExtraAttack: 0
+BareHandAttack: 0
+Str: 17
+Int: 12
+Wis: 14
+Dex: 14
+Con: 17
+Cha: 12
+Class: 3
+Size: 15
+Height: 60
+Weight: 40
+Resists: 0 0 0 0 0
+Armour: 0
+PetType: 0
+PetPetCost: 0
+Race: 55
+Move_type: 1
+Special_Bitvector: 0
+E
+#27208 2
+сова~
+сова~
+совы~
+сове~
+сову~
+совой~
+сове~
+Сова с огромными круглыми глазами прячется в дупле.
+~
+
+~
+Недавно один мой знакомый барон жаловался, что у него
+в поместье сова истребляет дичь. Истреби сову, а то скоро
+старому барону негде охотиться будет.
+~
+gnovw dk 0 E
+10 12 3 2d8+120 1d7+2
+0d0+0 12000
+8 8 2
+LikeWork: 40
+MaxFactor: 15
+ExtraAttack: 1
+BareHandAttack: 0
+Str: 17
+Int: 12
+Wis: 14
+Dex: 14
+Con: 17
+Cha: 12
+Class: 3
+Size: 15
+Height: 60
+Weight: 40
+Resists: 0 0 0 0 0
+Armour: 0
+PetType: 0
+PetPetCost: 0
+Race: 55
+Move_type: 1
+Special_Bitvector: 0
+Skill: 140 20
+E
+
+#27209 2
+кукушка~
+кукушка~
+кукушки~
+кукушке~
+кукушку~
+кукушкой~
+кукушке~
+Кукушка считает чьи-то годы.
+~
+
+~
+ 
+~
+gno k 0 E
+8 14 4 2d7+97 3d3+2
+0d0+0 7500
+8 8 2
+LikeWork: 30
+MaxFactor: 15
+ExtraAttack: 0
+BareHandAttack: 0
+Str: 15
+Int: 11
+Wis: 13
+Dex: 13
+Con: 15
+Cha: 11
+Class: 3
+Size: 15
+Height: 60
+Weight: 40
+Resists: 0 0 0 0 0
+Armour: 0
+PetType: 0
+PetPetCost: 0
+Race: 55
+Move_type: 1
+Special_Bitvector: 0
+E
+#27210 2
+змея~
+змея~
+змеи~
+змее~
+змею~
+змеей~
+змее~
+Змея средних размеров проползает мимо.
+~
+
+~
+ 
+~
+gnoq k 0 E
+6 16 5 2d7+70 3d3+2
+0d0+0 3900
+8 8 2
+LikeWork: 20
+MaxFactor: 15
+ExtraAttack: 0
+BareHandAttack: 0
+Str: 14
+Int: 10
+Wis: 12
+Dex: 12
+Con: 14
+Cha: 10
+Class: 3
+Size: 5
+Height: 80
+Weight: 30
+Resists: 0 0 0 0 0
+Armour: 0
+PetType: 0
+PetPetCost: 0
+Race: 51
+Move_type: 3
+Special_Bitvector: g
+E
+#27211 2
+зайчик~
+зайчик~
+зайчика~
+зайчику~
+зайчика~
+зайчиком~
+зайчике~
+Маленький серенький зайчик с пушистым хвостиком сидит тут.
+~
+
+~
+ 
+~
+gno k 0 E
+4 18 7 2d6+40 1d7+2
+0d0+0 1500
+8 8 1
+LikeWork: 15
+MaxFactor: 15
+ExtraAttack: 0
+BareHandAttack: 0
+Str: 13
+Int: 10
+Wis: 11
+Dex: 11
+Con: 13
+Cha: 10
+Class: 3
+Size: 7
+Height: 30
+Weight: 30
+Resists: 0 0 0 0 0
+Armour: 0
+PetType: 0
+PetPetCost: 0
+Race: 51
+Move_type: 4
+Special_Bitvector: 0
+E
+#27212 2
+соловей~
+соловей~
+соловья~
+соловью~
+соловья~
+соловьем~
+соловье~
+Соловей заливается на верхушке дерева.
+~
+ 
+~
+ 
+~
+gno k 0 E
+7 15 4 2d7+84 2d5+2
+0d0+0 6600
+8 8 1
+LikeWork: 25
+MaxFactor: 15
+ExtraAttack: 0
+BareHandAttack: 0
+Str: 15
+Int: 11
+Wis: 13
+Dex: 13
+Con: 15
+Cha: 11
+Class: 3
+Size: 7
+Height: 30
+Weight: 40
+Resists: 0 0 0 0 0
+Armour: 0
+PetType: 0
+PetPetCost: 0
+Race: 55
+Move_type: 1
+Special_Bitvector: 0
+E
+#27213 2
+сытый кабан~
+сытый кабан~
+сытого кабана~
+сытому кабану~
+сытого кабана~
+сытым кабаном~
+сытом кабане~
+Сытый кабан лениво развалился в тени.
+~
+
+~
+ 
+~
+bglno k 0 E
+9 13 3 2d8+110 2d6+3
+0d0+0 10500
+8 8 1
+LikeWork: 35
+MaxFactor: 10
+ExtraAttack: 1
+BareHandAttack: 14
+Str: 16
+Int: 12
+Wis: 13
+Dex: 13
+Con: 16
+Cha: 12
+Class: 3
+Size: 18
+Height: 100
+Weight: 80
+Resists: 0 0 0 0 0
+Armour: 0
+PetType: 0
+PetPetCost: 0
+Race: 51
+Move_type: 6
+Special_Bitvector: 0
+E
+#27214 2
+пятнистый олень~
+пятнистый олень~
+пятнистого оленя~
+пятнистому оленю~
+пятнистого оленя~
+пятнистым оленем~
+пятнистом олене~
+Молодой пятнистый олень пьет воду.
+~
+
+~
+ 
+~
+bglno k 0 E
+11 11 2 2d8+130 1d7+4
+0d0+0 13500
+8 8 1
+LikeWork: 45
+MaxFactor: 10
+ExtraAttack: 1
+BareHandAttack: 0
+Str: 17
+Int: 12
+Wis: 15
+Dex: 15
+Con: 17
+Cha: 12
+Class: 3
+Size: 20
+Height: 120
+Weight: 100
+Resists: 0 0 0 0 0
+Armour: 0
+PetType: 0
+PetPetCost: 0
+Race: 51
+Move_type: 6
+Special_Bitvector: 0
+E
+#27215 2
+шакал~
+шакал~
+шакала~
+шакалу~
+шакала~
+шакалом~
+шакале~
+Голодный шакал крадется вдоль тропы.
+~
+
+~
+ 
+~
+gno dfks 0 E
+8 14 4 2d7+97 3d3+2
+0d0+0 7500
+8 8 1
+LikeWork: 30
+MaxFactor: 10
+ExtraAttack: 0
+BareHandAttack: 4
+Str: 18
+Int: 13
+Wis: 11
+Dex: 18
+Con: 13
+Cha: 11
+Class: 2
+Size: 20
+Height: 100
+Weight: 80
+Resists: 0 0 0 0 0
+Armour: 0
+PetType: 0
+PetPetCost: 0
+Race: 51
+Move_type: 6
+Special_Bitvector: 0
+Skill: 157 50
+E
+T 27201
+#27216 2
+старый друид фигура~
+старый друид~
+старого друида~
+старому друиду~
+старого друида~
+старым друидом~
+старом друиде~
+Полупрозрачная фигура висит в воздухе.
+~
+
+~
+ 
+~
+bgno defkmnx 0 E
+15 7 1 2d10+180 2d6+1
+5d10+0 20000
+8 8 1
+LikeWork: 65
+MaxFactor: 5
+ExtraAttack: 1
+BareHandAttack: 0
+Str: 14
+Int: 20
+Wis: 20
+Dex: 17
+Con: 17
+Cha: 14
+Class: 6
+Size: 30
+Height: 180
+Weight: 150
+Resists: 0 0 0 0 0
+Armour: 0
+PetType: 0
+PetPetCost: 0
+Race: 1
+Move_type: 0
+Special_Bitvector: 0
+Spell: 63
+Spell: 63
+Spell: 63
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 79
+Spell: 79
+E
+T 27210
+T 27211
+T 27212
+T 27213
+T 27219
+T 27220
+#27217 2
+большой мохнатый дворовый пес~
+дворовый пес~
+дворового пса~
+дворовому псу~
+дворового пса~
+дворовым псом~
+дворовом псе~
+Большой мохнатый дворовый пес лениво развалился около двери.
+~
+Густая шерсть почти полностью скрывает от Вас уши глаза пса, поэтому вы не можете определить спить ли животное или нет. Но по любому тревожить его Вам бы не хотелось.
+~
+ 
+~
+bgno k 0 E
+5 17 6 2d7+60 2d4+5
+0d0+0 0
+5 5 1
+LikeWork: 20
+MaxFactor: 10
+ExtraAttack: 1
+BareHandAttack: 1
+Str: 13
+Int: 10
+Wis: 11
+Dex: 11
+Con: 13
+Cha: 10
+Class: 3
+Size: 20
+Height: 100
+Weight: 90
+Resists: 0 0 0 0 0
+Armour: 0
+PetType: 0
+PetPetCost: 0
+Race: 51
+Move_type: 0
+Special_Bitvector: 0
+E
+#27218 2
+дикобраз~
+дикобраз~
+дикобраза~
+дикобразу~
+дикобраза~
+дикобразом~
+дикобразе~
+Дикобраз проползает тут.
+~
+
+~
+ 
+~
+gno k 0 E
+10 12 3 2d8+90 2d7+0
+0d0+0 12000
+8 8 1
+LikeWork: 40
+MaxFactor: 10
+ExtraAttack: 0
+BareHandAttack: 4
+Str: 17
+Int: 12
+Wis: 14
+Dex: 14
+Con: 17
+Cha: 12
+Class: 3
+Size: 30
+Height: 180
+Weight: 150
+Resists: 0 0 0 0 0
+Armour: 0
+PetType: 0
+PetPetCost: 0
+Race: 51
+Move_type: 3
+Special_Bitvector: 0
+E
+T 27214
+T 1900
+#27219 2
+детина~
+детина~
+детины~
+детине~
+детину~
+детиной~
+детине~
+Здоровый детина стоит тут.
+~
+
+~
+ 
+~
+glmnort 0 0 E
+14 8 1 2d10+165 1d6+0
+0d0+0 21600
+8 8 1
+LikeWork: 60
+MaxFactor: 10
+ExtraAttack: 2
+BareHandAttack: 0
+Str: 24
+Int: 14
+Wis: 16
+Dex: 20
+Con: 19
+Cha: 14
+Class: 3
+Size: 30
+Height: 180
+Weight: 150
+Resists: 0 0 0 0 0
+Armour: 0
+PetType: 0
+PetPetCost: 0
+Race: 1
+Move_type: 0
+Special_Bitvector: 0
+Skill: 132 80
+Skill: 151 20
+Skill: 176 30
+E
+$
+$

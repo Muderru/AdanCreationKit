@@ -1,0 +1,18 @@
+#0
+Limbo - Internal~
+Nobody~
+99 600 2
+
+M 0 1 1 5 *chert
+ E 1 3 1 16
+*
+* Mobiles
+*M 0 1 1 1               Puff
+*M 0 99 1 99             Death
+*E 1 99 1 16                     Scythe
+*
+* доска
+*O 0 459 1 5 100
+S
+S
+$

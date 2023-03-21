@@ -1,0 +1,10 @@
+* TYPE 2 (room) TRIGGERS:
+a	WTRIG_GLOBAL	выполнять даже если зона пуста
+b	WTRIG_RANDOM	проверяется по случайному
+c	WTRIG_COMMAND	персонаж ввел команду
+d	WTRIG_SPEECH	персонаж сказал слово/фразу
+*e
+f	WTRIG_RESET     поресетилась зона к которой принадлежит комната
+g	WTRIG_ENTER	персонаж вошел в комнату
+h	WTRIG_DROP	что-то выкинули в комнате
+i	WTRIG_VAR_Reset	когда переменная прикрепленная комнате очищается

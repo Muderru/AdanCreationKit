@@ -1,0 +1,8 @@
+#1
+memory test trigger~
+0 o 100
+~
+say I remember you, %actor.name%!
+~
+$
+$

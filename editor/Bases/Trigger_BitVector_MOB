@@ -1,0 +1,17 @@
+* TYPE 0 (mobile) TRIGGERS:
+a	MTRIG_GLOBAL	проверяется даже если зона пуста
+b	MTRIG_RANDOM	проверяется по случайному
+c	MTRIG_COMMAND	когда персонаж ввел команду
+d	MTRIG_SPEECH	когда персонаж сказал фразу
+e	MTRIG_ACT	слово или строка через act
+f	MTRIG_DEATH	персонаж умер
+g	MTRIG_GREET	что-то видимое зашло в комнату
+h	MTRIG_GREET_ALL	что-то зашло в комнату
+i	MTRIG_ENTRY	монстр зашел в комнату
+j	MTRIG_RECEIVE	персонажу дали предмет
+k	MTRIG_FIGHT	каждый пульс во время боя
+l	MTRIG_HITPRCNT	бой и hp меньше некоторого числа
+m	MTRIG_BRIBE	монстру дали деньги
+n	MTRIG_Load	выполняется при загрузке моба 
+o 	MTRIG_Memory	выполняется когда моб встречает персонажа из 'памяти' (mremember) 
+p	MTRIG_VAR_Reset	когда переменная прикрепленная к монстру очищается

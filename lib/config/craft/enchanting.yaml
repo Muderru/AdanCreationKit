@@ -1,0 +1,328 @@
+# Структура блока affects (массив аффектов, которые записываются в affected_type):
+#  location: <имя apply_types>, например ВСЕГО_ЖИЗНИ
+#  modifier: <значение> - обязательно если задано location
+#  duration: <значение тиков> - время действия энчанта
+#  aff: [бит1, бит2, .. битN] - биты AFF_FLAGGED, названия там же где apply_types (например ЗАЩИТА_ОТ_ТЬМЫ)
+#  aff1: [бит1, бит2, .. битN] - биты AFF1_FLAGGED
+#  no: [бит1, бит2, .. битN] - биты неудобств (!ВОР и тп)
+#  на 1 аффект может быть только 1 битвектор
+
+- name: Выносливость I
+  vnum: 1000
+  min_skill: 1
+  good_train_skill: 5
+  train_skill: 15
+  ingredients:
+    - vnum: 3100
+      count: 15
+  description: +5 жизни на тело или щит
+  min_level: 1
+  wear_bits: [ITEM_WEAR_BODY, ITEM_WEAR_SHIELD]
+  min_power: 1
+  affects:
+    - location: ВСЕГО_ЖИЗНИ
+      modifier: 5
+
+- name: Защита I
+  vnum: 1001
+  min_skill: 1
+  good_train_skill: 5
+  train_skill: 15
+  ingredients:
+    - vnum: 3100
+      count: 8
+  description: Улучшает AC на 10. На тело или щит.
+  min_level: 1
+  wear_bits: [ITEM_WEAR_BODY, ITEM_WEAR_SHIELD]
+  min_power: 1
+  affects:
+    - location: ЗАЩИТА
+      modifier: -10
+
+- name: Точность I
+  vnum: 1002
+  min_skill: 5
+  good_train_skill: 10
+  train_skill: 15
+  ingredients:
+    - vnum: 3100
+      count: 5
+    - vnum: 3125
+      count: 1
+  description: +1 HITROLL на оружие (в правую или в две руки)
+  min_level: 1
+  wear_bits: [ITEM_WEAR_WIELD, ITEM_WEAR_DWIELD]
+  min_power: 1
+  affects:
+    - location: HITROLL
+      modifier: 1
+
+- name: Неутомляемость I
+  vnum: 1003
+  min_skill: 5
+  good_train_skill: 10
+  train_skill: 15
+  ingredients:
+    - vnum: 3100
+      count: 7
+    - vnum: 3112
+      count: 1
+  description: +5 энергии на сапоги
+  min_level: 1
+  wear_bits: [ITEM_WEAR_FEET]
+  min_power: 1
+  affects:
+    - location: ВСЕГО_ЭНЕРГИИ
+      modifier: 5
+
+- name: Броня I
+  vnum: 1004
+  min_skill: 15
+  good_train_skill: 20
+  train_skill: 25
+  ingredients:
+    - vnum: 3100
+      count: 10
+    - vnum: 3112
+      count: 1
+  description: +1 брони на тело
+  min_level: 1
+  wear_bits: [ITEM_WEAR_BODY]
+  min_power: 1
+  affects:
+    - location: БРОНЯ
+      modifier: 1
+
+- name: Регенерация I
+  vnum: 1005
+  min_skill: 20
+  good_train_skill: 28
+  train_skill: 30
+  ingredients:
+    - vnum: 3100
+      count: 15
+    - vnum: 3125
+      count: 1
+  description: +20% регенерации энергии на сапоги
+  min_level: 1
+  wear_bits: [ITEM_WEAR_FEET]
+  min_power: 1
+  affects:
+    - location: ВОСТАНОВЛ_ЭНЕРГИИ
+      modifier: 20
+
+- name: Защита II
+  vnum: 1006
+  min_skill: 30
+  good_train_skill: 38
+  train_skill: 40
+  ingredients:
+    - vnum: 3100
+      count: 20
+  description: Улучшает AC на 20. На тело или щит.
+  min_level: 3
+  wear_bits: [ITEM_WEAR_BODY, ITEM_WEAR_SHIELD]
+  min_power: 2
+  affects:
+    - location: ЗАЩИТА
+      modifier: -20
+
+- name: Неутомляемость II
+  vnum: 1007
+  min_skill: 40
+  good_train_skill: 45
+  train_skill: 50
+  ingredients:
+    - vnum: 3100
+      count: 14
+    - vnum: 3112
+      count: 2
+  description: +10 энергии на сапоги
+  min_level: 5
+  wear_bits: [ITEM_WEAR_FEET]
+  min_power: 3
+  affects:
+    - location: ВСЕГО_ЭНЕРГИИ
+      modifier: 10
+
+- name: Регенерация II
+  vnum: 1008
+  min_skill: 45
+  good_train_skill: 50
+  train_skill: 55
+  ingredients:
+    - vnum: 3100
+      count: 30
+    - vnum: 3125
+      count: 2
+  description: +40% регенерации энергии на сапоги
+  min_level: 5
+  wear_bits: [ITEM_WEAR_FEET]
+  min_power: 2
+  affects:
+    - location: ВОСТАНОВЛ_ЭНЕРГИИ
+      modifier: 40
+
+- name: Инфразрение
+  vnum: 1009
+  min_skill: 50
+  good_train_skill: 55
+  train_skill: 60
+  ingredients:
+    - vnum: 3101
+      count: 10
+  description: Инфразрение на голову
+  min_level: 1
+  wear_bits: [ITEM_WEAR_HEAD]
+  min_power: 1
+  affects:
+    - aff: ИНФРАЗРЕНИЕ
+
+- name: Броня II
+  vnum: 1010
+  min_skill: 55
+  good_train_skill: 60
+  train_skill: 65
+  ingredients:
+    - vnum: 3101
+      count: 15
+  description: +2 брони на тело
+  min_level: 10
+  wear_bits: [ITEM_WEAR_BODY]
+  min_power: 3
+  affects:
+    - location: БРОНЯ
+      modifier: 2
+
+- name: Сопротивляемость I
+  vnum: 1011
+  min_skill: 60
+  good_train_skill: 65
+  train_skill: 70
+  ingredients:
+    - vnum: 3101
+      count: 15
+    - vnum: 3126
+      count: 1
+    - vnum: 3113
+      count: 2
+  description: +4 ко всем сопротивлениям к стихиям (на тело или щит)
+  min_level: 10
+  wear_bits: [ITEM_WEAR_BODY, ITEM_WEAR_SHIELD]
+  min_power: 4
+  affects:
+    - location: ОГОНЬ
+      modifier: 4
+    - location: ВОДА
+      modifier: 4
+    - location: ВОЗДУХ
+      modifier: 4
+    - location: ЗЕМЛЯ
+      modifier: 4
+
+- name: Выносливость II
+  vnum: 1012
+  min_skill: 65
+  good_train_skill: 70
+  train_skill: 75
+  ingredients:
+    - vnum: 3101
+      count: 30
+  description: +10 жизни на тело или щит
+  min_level: 10
+  wear_bits: [ITEM_WEAR_BODY, ITEM_WEAR_SHIELD]
+  min_power: 4
+  affects:
+    - location: ВСЕГО_ЖИЗНИ
+      modifier: 10
+
+- name: Ярость I
+  vnum: 1013
+  min_skill: 70
+  good_train_skill: 75
+  train_skill: 80
+  ingredients:
+    - vnum: 3101
+      count: 14
+    - vnum: 3126
+      count: 2
+    - vnum: 3113
+      count: 5
+  description: +5% к повреждениям (на оружие в правую или в две руки)
+  min_level: 10
+  wear_bits: [ITEM_WEAR_WIELD, ITEM_WEAR_DWIELD]
+  min_power: 4
+  affects:
+    - location: ПРОЦ_ПОВРЕЖДЕНИЮ
+      modifier: 5
+
+- name: Точность II
+  vnum: 1014
+  min_skill: 75
+  good_train_skill: 80
+  train_skill: 85
+  ingredients:
+    - vnum: 3101
+      count: 15
+    - vnum: 3126
+      count: 1
+  description: +2 HITROLL на оружие (в правую или в две руки)
+  min_level: 15
+  wear_bits: [ITEM_WEAR_WIELD, ITEM_WEAR_DWIELD]
+  min_power: 4
+  affects:
+    - location: HITROLL
+      modifier: 2
+
+- name: Размер I
+  vnum: 1015
+  min_skill: 75
+  good_train_skill: 80
+  train_skill: 85
+  ingredients:
+    - vnum: 3102
+      count: 10
+    - vnum: 3126
+      count: 2
+  description: +2 размера на щит
+  min_level: 15
+  wear_bits: [ITEM_WEAR_SHIELD]
+  min_power: 4
+  affects:
+    - location: РАЗМЕР
+      modifier: 2
+
+# свет пока мадом не поддерживается
+#- name: Свет I
+#  vnum: 1016
+#  min_skill: 10
+#  good_train_skill: 0
+#  train_skill: 0
+#  ingredients:
+#    - vnum: 3100
+#      count: 5
+#  description: свет на голову (только на 3 игровых дня)
+#  min_level: 1
+#  wear_bits: [ITEM_WEAR_HEAD]
+#  min_power: 1
+#  affects:
+#    - aff1: ВЕЧН.СВЕТ
+#      duration: 1440
+      
+- name: Мудрость служителя I
+  vnum: 1017
+  min_skill: 10
+  good_train_skill: 15
+  train_skill: 20
+  ingredients:
+    - vnum: 3100
+      count: 10
+  description: +1 c1 на оружие в правую или две руки (для лекарей, магов и друидов)
+  min_level: 1
+  wear_bits: [ITEM_WEAR_WIELD, ITEM_WEAR_DWIELD]
+  min_power: 1
+  affects:
+    - location: ADD_SLOT_C1
+      modifier: 1
+      no: ["!ПАЛАДИН", "!СЛЕДОПЫТ", "!РЫЦАРЬ СМЕРТИ", "!ЛУЧНИК"]
+

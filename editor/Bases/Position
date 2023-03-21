@@ -1,0 +1,5 @@
+* Position
+4	POSITION_SLEEPING	Монстр спит.
+5	POSITION_RESTING	Монстр отдыхает.
+6	POSITION_SITTING	Монстр сидит.
+8	POSITION_STANDING	Монстр стоит.

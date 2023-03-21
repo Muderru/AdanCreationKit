@@ -1,0 +1,467 @@
+#4000 2
+зайчик~
+зайчик~
+зайчика~
+зайчику~
+зайчика~
+зайчиком~
+зайчике~
+Маленький зайчик жует здесь травку.
+~
+   Маленький зайчик серого окраса, с большими ушами и мощными задними лапами. Наверное, он очень 
+хорошо прыгает!
+~
+ 
+~
+gno 0 0 E
+5 17 8 1d10+28 1d6+0
+0d0+0 2700
+8 8 1
+LikeWork: 0
+MaxFactor: 20
+ExtraAttack: 0
+BareHandAttack: 13
+Str: 12
+Int: 9
+Wis: 11
+Dex: 13
+Con: 11
+Cha: 9
+Class: 3
+Size: 2
+Height: 180
+Weight: 5
+Resists: 0 0 0 0 0
+Armour: 0
+PetType: 0
+PetPetCost: 0
+Race: 51
+Move_type: 0
+Special_Bitvector: 0
+E
+#4001 2
+змея~
+змея~
+змеи~
+змее~
+змею~
+змеей~
+змее~
+Небольшая змея ползет тихо в траве.
+~
+   Эта змея, судя по всему, неядовита. Но змеи, они за себя постоять всегда могут!
+~
+ 
+~
+gnoq k 0 E
+5 17 8 1d20+26 1d6+1
+0d0+0 2700
+8 8 2
+LikeWork: 0
+MaxFactor: 25
+ExtraAttack: 0
+BareHandAttack: 4
+Str: 12
+Int: 9
+Wis: 11
+Dex: 11
+Con: 12
+Cha: 9
+Class: 3
+Size: 4
+Height: 180
+Weight: 5
+Resists: 0 0 0 0 0
+Armour: 0
+PetType: 0
+PetPetCost: 0
+Race: 51
+Move_type: 3
+Special_Bitvector: 0
+E
+#4002 2
+олененок~
+олененок~
+олененка~
+олененку~
+олененка~
+олененком~
+олененке~
+Красивый олененок стоит здесь, опасливо поглядывая на вас.
+~
+   Это очень молодой, глупый и слабый олененок. Он практически беспомощен и очень трогетелен. Впрочем, рост 
+у него - человеку по грудь, а иного гнома и особенно хоббита - еще и не видно за ним будет!
+~
+ 
+~
+gno 0 0 E
+7 16 7 1d10+65 2d6+0
+0d0+0 6600
+8 8 1
+LikeWork: 0
+MaxFactor: 25
+ExtraAttack: 0
+BareHandAttack: 13
+Str: 13
+Int: 10
+Wis: 11
+Dex: 11
+Con: 13
+Cha: 10
+Class: 3
+Size: 25
+Height: 180
+Weight: 30
+Resists: 0 0 0 0 0
+Armour: 0
+PetType: 0
+PetPetCost: 0
+Race: 51
+Move_type: 5
+Special_Bitvector: 0
+E
+#4003 2
+лиса лису~
+лиса~
+лисы~
+лисе~
+лису~
+лисой~
+лисе~
+Небольшая лиса с пушистым хвостом пробегает мимо.
+~
+   Хитрая лисья мордочка очень красива и не предвещает никаких бед. Наверное, снова обманывает!
+~
+ 
+~
+gno 0 0 E
+6 17 7 1d20+45 1d8+0
+0d0+0 4000
+8 8 2
+LikeWork: 0
+MaxFactor: 25
+ExtraAttack: 0
+BareHandAttack: 4
+Str: 14
+Int: 10
+Wis: 12
+Dex: 12
+Con: 14
+Cha: 10
+Class: 3
+Size: 10
+Height: 180
+Weight: 15
+Resists: 0 0 0 0 0
+Armour: 0
+PetType: 0
+PetPetCost: 0
+Race: 51
+Move_type: 0
+Special_Bitvector: 0
+E
+#4005 2
+волк~
+молодой волк~
+молодого волка~
+молодому волку~
+молодого волка~
+молодым волком~
+молодом волке~
+Молодой волк пробегает мимо в поисках добычи.
+~
+   Молодой, еще не опытный волк, однако он уже умеет постоять за себя. Да и добыть себе завтрак - тоже 
+умеет!
+~
+Волк, обитающий в Светлом лесу, в последнее время стал 
+очень прожорливый. Того и гляди скоро дойдет до человеческих
+жертв. Необходимо немедленно устранить эту угрозу.
+~
+gno 0 0 E
+8 15 6 4d5+80 2d4+0
+0d0+0 10000
+8 8 1
+LikeWork: 0
+MaxFactor: 19
+ExtraAttack: 1
+BareHandAttack: 4
+Str: 15
+Int: 11
+Wis: 13
+Dex: 13
+Con: 15
+Cha: 11
+Class: 3
+Size: 20
+Height: 180
+Weight: 50
+Resists: 0 0 0 0 0
+Armour: 0
+PetType: 0
+PetPetCost: 0
+Race: 51
+Move_type: 0
+Special_Bitvector: 0
+E
+#4006 2
+небольшой медведь медведя~
+медведь~
+медведя~
+медведю~
+медведя~
+медведем~
+медведе~
+Небольшой медведь медленно пробирается по лесу.
+~
+
+~
+Медведь в Светлом лесу, задрал несколько
+путников. Вы должны прекратить это безобразие.
+~
+gnovw 0 0 E
+8 15 5 3d5+80 2d6+1
+0d0+0 10000
+8 8 1
+LikeWork: 0
+MaxFactor: 15
+ExtraAttack: 0
+BareHandAttack: 6
+Str: 15
+Int: 11
+Wis: 13
+Dex: 13
+Con: 15
+Cha: 11
+Class: 3
+Size: 30
+Height: 180
+Weight: 150
+Resists: 0 0 0 0 0
+Armour: 0
+PetType: 0
+PetPetCost: 0
+Race: 51
+Move_type: 0
+Special_Bitvector: 0
+E
+#4007 2
+скорпион большой~
+скорпион~
+скорпиона~
+скорпиону~
+скорпиона~
+скорпионом~
+скорпионе~
+Большой скорпион наставил на вас свое смертоносное жало.
+~
+
+~
+Говорят, что в светлом лесу есть небольшая запертая комнатка
+в которой живут два ужасных монстра. Один из них - это большой скорпион.
+Вы должны найти его и убить. Будьте осторожны - это опасное задание.
+~
+bfgmnovw dfk 0 E
+8 14 5 1d1+80 2d5+0
+0d0+0 10000
+8 8 1
+LikeWork: 25
+MaxFactor: 10
+ExtraAttack: 0
+BareHandAttack: 11
+Str: 18
+Int: 27
+Wis: 27
+Dex: 21
+Con: 21
+Cha: 18
+Class: 1
+Size: 15
+Height: 180
+Weight: 50
+Resists: 0 0 0 0 0
+Armour: 0
+PetType: 0
+PetPetCost: 0
+Race: 0
+Move_type: 6
+Special_Bitvector: g
+Spell: 40
+Spell: 40
+Spell: 15
+Spell: 15
+Spell: 42
+Spell: 42
+Spell: 42
+E
+T 1900
+#4008 2
+паук большой~
+паук~
+паука~
+пауку~
+паука~
+пауком~
+пауке~
+Большой паук злобно сверкает красными рядами глаз.
+~
+
+~
+Говорят, что в светлом лесу есть небольшая запертая комнатка
+в которой живут два ужасных монстра. Один из них - это большой паук.
+Вы должны найти его и убить. Будьте осторожны - это опасное задание.
+~
+bfgmnovw dfk 0 E
+9 12 4 1d1+100 2d6+0
+0d0+0 11000
+8 8 1
+LikeWork: 45
+MaxFactor: 10
+ExtraAttack: 0
+BareHandAttack: 4
+Str: 27
+Int: 18
+Wis: 21
+Dex: 21
+Con: 27
+Cha: 18
+Class: 3
+Size: 15
+Height: 180
+Weight: 50
+Resists: 0 0 0 0 0
+Armour: 0
+PetType: 0
+PetPetCost: 0
+Race: 0
+Move_type: 0
+Special_Bitvector: 0
+Skill: 140 0
+E
+T 4003
+#4009 2
+житель~
+житель~
+жителя~
+жителю~
+жителя~
+жителем~
+жителе~
+Житель Минас-Тирита стоит здесь, грустно вздыхая.
+~
+
+~
+ 
+~
+bgno dfk 0 E
+10 11 3 1d1+100 2d6+0
+1d10+0 0
+8 8 1
+LikeWork: 0
+MaxFactor: 10
+ExtraAttack: 0
+BareHandAttack: 0
+Str: 27
+Int: 18
+Wis: 21
+Dex: 21
+Con: 27
+Cha: 18
+Class: 3
+Size: 30
+Height: 180
+Weight: 150
+Resists: 0 0 0 0 0
+Armour: 0
+PetType: 0
+PetPetCost: 0
+Race: 0
+Move_type: 0
+Special_Bitvector: 0
+Skill: 140 0
+E
+#4010 2
+ленивый охотник~
+ленивый охотник~
+ленивого охотника~
+ленивому охотнику~
+ленивого охотника~
+ленивым охотником~
+ленивом охотнике~
+Ленивый охотник жует травинку, прислонившись к дереву.
+~
+
+~
+ 
+~
+bgno 0 0 E
+10 11 3 1d1+100 2d6+0
+1d110+0 0
+8 8 1
+LikeWork: 0
+MaxFactor: 10
+ExtraAttack: 0
+BareHandAttack: 0
+Str: 27
+Int: 11
+Wis: 11
+Dex: 12
+Con: 15
+Cha: 11
+Class: 3
+Size: 30
+Height: 180
+Weight: 150
+Resists: 0 0 0 0 0
+Armour: 0
+PetType: 0
+PetPetCost: 0
+Race: -1
+Move_type: 0
+Special_Bitvector: 0
+E
+T 4006
+#4011 2
+грибник~
+грибник~
+грибника~
+грибнику~
+грибника~
+грибником~
+грибнике~
+Грибник ходит здесь, собирая грибы.
+~
+
+~
+ 
+~
+gno dfk 0 E
+10 11 3 1d1+100 2d6+0
+1d10+0 0
+8 8 1
+LikeWork: 0
+MaxFactor: 10
+ExtraAttack: 0
+BareHandAttack: 0
+Str: 27
+Int: 18
+Wis: 21
+Dex: 21
+Con: 27
+Cha: 18
+Class: 3
+Size: 30
+Height: 180
+Weight: 150
+Resists: 0 0 0 0 0
+Armour: 0
+PetType: 0
+PetPetCost: 0
+Race: 0
+Move_type: 0
+Special_Bitvector: 0
+Skill: 140 0
+E
+T 4007
+T 4008
+$
+$

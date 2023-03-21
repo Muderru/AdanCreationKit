@@ -1,0 +1,53 @@
+#0
+The Void (Войд)~
+   Вы попали в небольшую комнату. Сюда игроки попадают в аварийных случаях когда 
+возможен креш всей системы или в случае потери связи. Пожалуйста запишите в файл
+все то, что произошло с вами до попадания сюда и пошлите его нам. Для выхода из 
+этой комнаты используйте команду "войти портал".
+~
+0 cdehB 1
+S
+T 8001
+#1
+Limbo~
+   You are floating in a formless void, detached from all sensation of physical
+matter, surrounded by swirling glowing light, which fades into the relative
+darkness around you without any trace of edges or shadow.
+   There is a "No Tipping" notice pinned to the darkness.
+~
+0 deB 1
+S
+#3
+A Totally Empty Room~
+   The walls are completely bare... nothing at all in the room.
+How... utterly bizarre and completely weird.  There is a strange
+portal just above you, and it almost looks as if there is some
+sort of room above you.
+~
+1 djB 0
+D4
+You notice that the portal above you looks almost like glass,
+albeit very dirty glass.
+~
+~
+0 -1 3048
+S
+#4
+The Realm Of The Dead~
+   You are standing on an immense, grey stone floor that stretches as far
+as you can see in all directions.  Rough winds plunging from the dark,
+starless sky tear savagely at your fragile body.
+~
+0 dj 0
+S
+#5
+В аду.~
+   Ваше тело содрогается от боли, кожа лопается, обнажая плоть, страшные тени
+бегают по раскаленым каменным стенам, ваша совесть пожирает сознание за 
+совершенные вами грехи, но жизнь чудесным образом не покидает ваше тело, 
+кто-то хочет, чтобы ваши мучения продлились вечно...
+~
+0 deh 0
+S
+$
+$

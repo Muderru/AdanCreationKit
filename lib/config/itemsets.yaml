@@ -1,0 +1,35 @@
+# МЮАНП ДКЪ ЛЮЦЮ
+- vnum: 600
+  name: "оКЮЛЪ нПНДПСХМЮ"
+  items: []
+  affects:
+    - location: бяецн_фхгмх
+      modifier: 15
+      item_set: 2
+    - location: опнж_яйнпнярэ_гюо
+      modifier: 10
+      item_set: 2
+    - location: ADD_SLOT_C6
+      modifier: 2
+      item_set: 3
+    - location: ADD_SLOT_C2
+      modifier: 1
+      item_set: 3
+    - location: опнмхгшбюмхе нцмъ
+      modifier: 15
+      item_set: 4
+    - location: опнмхгшбюмхе бнгдсую
+      modifier: 15
+      item_set: 4
+    - location: опнмхгшбюмхе бндш
+      modifier: 15
+      item_set: 4
+    - location: опнмхгшбюмхе гелкх
+      modifier: 15
+      item_set: 4
+    - location: ADD_SLOT_C4
+      modifier: 1
+      item_set: 4
+    - location: бяецн_фхгмх
+      modifier: 50
+      item_set: 5
